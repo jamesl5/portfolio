@@ -8,7 +8,7 @@ angular.module('myApp',['ui.router', 'firebase'])
     $stateProvider
         .state('home', {
             url:'/',
-            templateUrl: 'templates/Landing.html',
+            templateUrl: 'templates/landing.html',
             controller: 'HomeController',
         })
         // Configure states for "content" and "about"
