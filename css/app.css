@@ -27,6 +27,8 @@ body{
 }
 #profile{
 	margin: 10px;
+	width: 100px;
+	
 }
 .project-image{
 	width:150px;
@@ -75,6 +77,9 @@ nav a:hover {
 @media (min-width: 768px) {
 	#title{
 		font-size: 3em;
+	}
+	#profile{
+		width: 300px;
 	}
 	.content{
 		font-size: 2em;
