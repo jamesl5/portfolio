@@ -1,0 +1,16 @@
+
+<div >
+	
+	<div class="project" ng-repeat="content in contents">
+		<h1>
+			{{content.Title}}
+		</h1>
+		<div class="description">
+			{{content.Description}}
+		</div>
+		<div>
+			<a href={{content.url}}><img  class="project-image" src={{content.Photo}}></a>
+		</div>
+
+	</div>
+</div>
